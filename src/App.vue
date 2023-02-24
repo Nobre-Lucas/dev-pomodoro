@@ -1,27 +1,26 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+  <TaskContainer/>
+  <HeaderContainer/>
+  <StatisticsContainer/>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
+import HeaderContainer from './components/HeaderContainer.vue';
+import TaskContainer from './components/TaskContainer.vue';
+import StatisticsContainer from './components/StatisticsContainer.vue';
 
 export default defineComponent({
   name: 'App',
   components: {
-    HelloWorld
+    TaskContainer,
+    HeaderContainer,
+    StatisticsContainer
   }
 });
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
