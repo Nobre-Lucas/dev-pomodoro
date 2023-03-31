@@ -1,6 +1,6 @@
-<template>
-    <div>
-        <h1>Ola mundo</h1>
+<template class="task-container">
+    <div class="task">
+        <h2>Tarefas</h2>
     </div>
 </template>
 
@@ -13,5 +13,9 @@ export default defineComponent({
 </script>
 
 <style>
+    
+    .task {
+        background-color: rgb(167, 66, 66);
+    }
 
 </style>

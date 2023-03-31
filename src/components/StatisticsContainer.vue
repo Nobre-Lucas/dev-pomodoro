@@ -1,5 +1,7 @@
-<template>
-    <h3>E eu sou o menor de todos</h3>
+<template class="statistics-container">
+    <div class="statistics">
+        <h2>Estatísticas</h2>
+    </div>
 </template>
 
 <script lang="ts">
@@ -9,3 +11,11 @@ export default defineComponent({
     name:'StatisticsContainer'
 })
 </script>
+
+<style>
+
+    .statistics {
+        background-color: brown;
+    }
+
+</style>

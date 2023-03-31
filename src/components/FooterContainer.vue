@@ -1,6 +1,6 @@
-<template class="header-container">
-    <div class="header">
-        <h2>Cabeçalho</h2>
+<template class="footer-container">
+    <div class="footer">
+        <h2>Rodapé</h2>
     </div>
 </template>
 
@@ -8,12 +8,12 @@
 import { defineComponent } from 'vue';
 
 export default defineComponent({
-    name:'HeaderContainer'
+    name:'FooterContainer'
 })
 </script>
 
 <style>
-.header{
+.footer{
     background-color: brown;
 }
 </style>
