@@ -1,6 +1,10 @@
 <template>
-    <footer>
-        <h2>Footer</h2>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>PomodoroDev</strong> by <a href="https://nobre-lucas.github.io/portfolio/" target="_blank">Lucas Nobre Barbosa</a>
+            </p>
+        </div>
     </footer>
 </template>
 
@@ -17,6 +21,5 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background-color: brown;
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
   <HeaderComponent />
-  <ContentWrapper />
+  <!-- <ContentWrapper /> -->
   <FooterComponent />
 </template>
 
@@ -9,14 +9,14 @@
 import { defineComponent } from 'vue';
 import HeaderComponent from './components/HeaderComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
-import ContentWrapper from './components/ContentWrapper.vue';
+// import ContentWrapper from './components/ContentWrapper.vue';
 
 export default defineComponent({
   name: 'App',
   components: {
     HeaderComponent,
     FooterComponent,
-    ContentWrapper,
+    // ContentWrapper,
 }
 });
 </script>

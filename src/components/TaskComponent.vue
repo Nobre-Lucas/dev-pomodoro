@@ -13,9 +13,5 @@ export default defineComponent({
 </script>
 
 <style>
-    
-    .task {
-        background-color: rgb(167, 66, 66);
-    }
 
 </style>
