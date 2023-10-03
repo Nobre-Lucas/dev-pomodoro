@@ -1,5 +1,5 @@
-<template class="statistics-container">
-    <div class="statistics">
+<template>
+    <div class="statistics column">
         <h2>Estatísticas</h2>
     </div>
 </template>
@@ -14,8 +14,5 @@ export default defineComponent({
 
 <style>
 
-    .statistics {
-        background-color: brown;
-    }
 
 </style>

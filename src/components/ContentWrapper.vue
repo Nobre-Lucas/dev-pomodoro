@@ -1,5 +1,5 @@
 <template>
-    <div class="wrapper">
+    <div class="content columns">
         <TaskComponent />
         <StatisticsComponent />
     </div>
@@ -20,13 +20,11 @@ export default defineComponent ({
 </script>
 
 <style scoped>
-.wrapper {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    position: absolute;
-    height: auto;
+
+.content {
+    padding-top: 4rem;
+    height: 100%;
     width: 100%;
-    top: 1rem;
-    bottom: 0;
 }
+
 </style>
