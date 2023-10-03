@@ -1,6 +1,6 @@
 <template>
     <div class="tasks column">
-        <h2>Tarefas</h2>
+        <h2 class="subtitle">Tarefas</h2>
         <img class="img" src="../assets/cronometro.png" alt="">
         <a class="timer">{{ zfill(hour) }}:{{ zfill(min) }}:{{ zfill(sec) }}</a>
 
@@ -82,17 +82,15 @@ export default defineComponent({
 .tasks {
     display: flex;
     width: 100%;
+    height: 100vh;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
     background-color: #00d1b2;
 }
 
 .img {
-    width: 420px;
-    height: 100%;
-    padding-top: 100px;
-
+    width: 75%;
+    height: 50vh;
 }
 
 .timer {

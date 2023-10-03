@@ -17,9 +17,10 @@ export default defineComponent({
 </script>
 
 <style scoped>
-footer {
+.footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    padding: 2rem 1.5rem 2rem;
 }
 </style>
